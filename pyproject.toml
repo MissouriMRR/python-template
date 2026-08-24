@@ -11,6 +11,8 @@ typeCheckingMode = "recommended"
 # If uv is being used, this should match where uv creates the virtual environment
 venvPath = "."
 venv = ".venv"
+reportUnusedCallResult = false
+reportMissingTypeStubs = false
 
 [dependency-groups]
 dev = [
